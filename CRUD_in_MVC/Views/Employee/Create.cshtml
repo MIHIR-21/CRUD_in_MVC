@@ -31,37 +31,3 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
-@* @model CRUD_in_MVC.Models.Employee
-
-    <h2>Employees</h2>
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>name</th>
-                <th>email</th>
-                <th>phone</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Models)
-            {
-                <tr>
-                    <td>@item.name</td>
-                    <td>@item.email</td>
-                    <td>@item.phone</td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-
-                </tr>
-            }
-        </tbody>
-
-    </table>
- *@
